@@ -5,44 +5,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lion Airlines</title>
- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="icon" href="img/favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic" rel="stylesheet">
     <link rel="stylesheet" href="css/index.css">
 </head>
-
 <body>
     <header>
-        <div>
-            <input type="button" name="english" value="EN">
-            <input type="button" name="ukraine" value="UA">
-            <a href="index.html"><img src="home-logo.png" alt="Home"></a>
-            <label>
-                <input type="search" name="search">
-                <img src="search-logo.png" alt=Search>
-            </label>
+        <div class="top">
+            <input class="en" type="button" name="english" value="EN">
+            <input class="ua" type="button" name="ukraine" value="UA">
+            <nav>
+                <ul class="tourism">
+                    <li>
+                        <a href="#">Travel</a>
+                    </li>
+                    <li>
+                        <a href="#">Hotel</a>
+                    </li>
+                    <li>
+                        <a href="#">Car Rental</a>
+                    </li>
+                    <li>
+                        <a href="#">Information</a>
+                    </li>
+                </ul>
+            </nav>
+            <h1>Lion Airlines</h1>
+            <div>
+                <input type="search" id="search" placeholder="Search..." />
+            </div>
+            <a href="index.html"><img class="home" src="img/home-logo.png" alt="Home"></a>
         </div>
-        <h1>Lion Airlines</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#">Travel</a>
-                </li>
-                <li>
-                    <a href="#">Hotel</a>
-                </li>
-                <li>
-                    <a href="#">Car Rental</a>
-                </li>
-                <li>
-                    <a href="#">Information</a>
-                </li>
-            </ul>
-        </nav>
         <div>
             <img src="img/aircraft-logo.jpg" alt="airplane in the sky">
         </div>
-        <nav>
+        <nav class="destiny">
             <ul>
                 <li>
                     <a href="#">Destinations</a>
@@ -62,31 +60,32 @@
             </ul>
         </nav>
     </header>
-    <article>
-        <h2>Travel with us</h2>
-        <p>Lion Airlines has been flying for 100 years and is Ukrainian most established private airline. Experienced crew. Our experienced cabin and maintenance crew ensure maximum flight safety and security. Low pricing policy. Lion operates an affordable
-            and flexible pricing policy that considers quality and customer satisfaction. Uses cutting-edge technology.</p>
-    </article>
-    <aside>
-
-        <img src="img/simply-aviation-logo.jpg" alt="simply aviation">
-    </aside>
-    <article>
-        <h2>Comfort</h2>
-        <p>Enjoy the comfort of Economy Class seating on both short and long haul flights! With seats that recline up to 18.5 cm, featuring adjustable head and foot supports, Economy Class offers a most comfortable journey.</p>
-    </article>
-    <aside>
-        <img src="img/aircraft-chairs.jpg" alt="airplane comfort">
-    </aside>
-    <article>
-        <h2>More than 100 cities</h2>
-        <p>Lion Airlines has great travelling expirience. You can visit more than 100 cities around the world. these are the most popular cities in Europe, Asia, the countries of northern and southern america.</p>
-    </article>
-    <aside>
-        <img src="img/airport-departure.jpg" alt="airport">
-    </aside>
+    <main>
+        <aside>
+            <img src="img/simply-aviation-logo.jpg" alt="simply aviation">
+        </aside>
+        <article>
+            <h2>Travel with us</h2>
+            <p>Lion Airlines has been flying for 100 years and is Ukrainian most established private airline. Experienced crew. Our experienced cabin and maintenance crew ensure maximum flight safety and security. Low pricing policy. Lion operates an affordable
+                and flexible pricing policy that considers quality and customer satisfaction. Uses cutting-edge technology.</p>
+        </article>
+        <article>
+            <h2>Comfort</h2>
+            <p>Enjoy the comfort of Economy Class seating on both short and long haul flights! With seats that recline up to 18.5 cm, featuring adjustable head and foot supports, Economy Class offers a most comfortable journey.</p>
+        </article>
+        <aside>
+            <img src="img/aircraft-chairs.jpg" alt="airplane comfort">
+        </aside>
+        <aside>
+            <img src="img/airport-departure.jpg" alt="airport">
+        </aside>
+        <article>
+            <h2>More than 100 cities</h2>
+            <p>Lion Airlines has great travelling expirience. You can visit more than 100 cities around the world. these are the most popular cities in Europe, Asia, the countries of northern and southern america.</p>
+        </article>
+    </main>
     <footer>
-        <nav>
+        <nav class="information">
             <ul>
                 <li>
                     <a href="#">General Rules</a>
@@ -105,7 +104,7 @@
                 </li>
             </ul>
         </nav>
-        <nav>
+        <nav class="contacts">
             <div>
                 <a href="https://www.facebook.com"><img src="img/facebook-icon.png" alt="facebook"></a>
                 <a href="https://www.instagram.com"><img src="img/instagram-icon.png" alt="instagram"></a>
@@ -121,5 +120,4 @@
         <p>Lion Airlines Inc. All Rights Reserved ©</p>
     </footer>
 </body>
-
 </html>

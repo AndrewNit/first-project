@@ -1,4 +1,140 @@
 body {
     font-family: 'Gentium Book Basic', serif;
+    max-width: 1200px;
+    margin: auto;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 50%;
+    font-size: 27px;
+    text-align: center;
+}
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    font-size: 2.2rem;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.tourism li {
+    display: inline-block;
+    margin-top: 12px;
+    margin-left: 5px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.tourism a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+}
+
+.en {
+    width: 80px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.ua {
+    width: 80px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: -8px;
+    background-color: white;
+}
+
+.home {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+
+#search {
+  width: 250px;
+  height: 45px;
+  background: #3B3A3A;
+  border: none;
+  font-size: 15px;
+  float: left;
+  color: white;
+  padding-left: 45px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.destiny li {
+    display: inline-block;
+    margin-left: 100px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.destiny a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
     
+}
+
+a:hover {
+    color: white;
+}
+
+li:hover {
+    background-color: black;
+}
+
+main img {
+    width: 100%;
+}
+
+main article {
+    width: 80%;
+    margin: auto;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 100px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+footer a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+}
+
+.contacts p {
+    display: flex;
+    justify-content: flex-end;
+}
+   
+
+
+
+      
