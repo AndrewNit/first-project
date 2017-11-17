@@ -15,31 +15,43 @@
 </head>
 <body>
     <header>
-        <div class="top">
-            <button type="button" class="btn btn-dark en">EN</button>
-            <button type="button" class="btn btn-dark ua">UA</button>
-            <nav>
-                <ul class="tourism">
-                    <li>
-                        <a href="#">Travel</a>
+        <nav class="navbar navbar-expand-lg navbar navbar-light bg-light top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a href="#">Hotel</a>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#">Travel<span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a href="#">Car Rental</a>
+                     <li class="nav-item active">
+                        <a class="nav-link" href="#">Check-in<span class="sr-only">(current)</span></a>
                     </li>
-                    <li>
-                        <a href="#">Information</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Information
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Business Travel</a>
+                            <a class="dropdown-item" href="#">Travelling with Family</a>
+                            <a class="dropdown-item" href="#">Airport Information</a>
+                            <a class="dropdown-item" href="#">Passenger Rights</a>
+                            <a class="dropdown-item" href="#">Car Rental</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Track Baggage</a>
+                        </div>
                     </li>
                 </ul>
-            </nav>
-            <h1>Lion Airlines</h1>
-            <div>
-                <input type="search" id="search" placeholder="Search..." />
+                <a class="navbar-brand" href="#">Lion Airlines</a>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">Search</button>
+                </form>
             </div>
-            <a href="index.html"><img class="home" src="img/home-logo.png" alt="Home"></a>
-        </div>
+        </nav>
         <div>
             <img src="img/aircraft-logo.jpg" alt="airplane in the sky">
         </div>
@@ -116,10 +128,11 @@
             </div>
             <div class="right-side">
                 <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#exampleModal">
-                <img  src="img/mail-icon.png" alt="contact us"></button>
+                    <img  src="img/mail-icon.png" alt="contact us">
+                </button>
             </div>
-            <p>Follow Us</p>
-            <p>Contact US</p>
+            <p class="under-right">Follow Us</p>
+            <p class="under-left">Contact US</p>
         </nav>
         <p class="copy">Lion Airlines Inc. All Rights Reserved ©</p>
     </footer>

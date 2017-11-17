@@ -2,6 +2,7 @@ body {
     font-family: 'Gentium Book Basic', serif;
     max-width: 1200px;
     margin: auto;
+    background-color: #F8F9FA;
 }
 
 main {
@@ -13,9 +14,11 @@ main {
 }
 
 .top {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
+  margin-bottom: 40px;
+  font-size: 27px;
+}
+.navbar-brand {
+    font-size: 27px;
 }
 
 h1 {
@@ -41,38 +44,10 @@ h1 {
     font-weight: bold;
 }
 
-.en {
-    width: 80px;
-    height: 35px;
-    margin-top: 25px;
-    margin-left: 20px;
-
-}
-
-.ua {
-    width: 80px;
-    height: 35px;
-    margin-top: 25px;
-    
-}
-
 .home {
     width: 50px;
     height: 50px;
     margin: 15px;
-}
-
-#search {
-  width: 250px;
-  height: 45px;
-  background: #3B3A3A;
-  border: none;
-  font-size: 17px;
-  float: left;
-  color: white;
-  padding-left: 45px;
-  border-radius: 5px;
-  margin-top: 20px;
 }
 
 .destiny li {
@@ -92,12 +67,13 @@ h1 {
     font-weight: bold;
 }
 
-a:hover {
-    color: white;
+.information a {
+    text-decoration: none;
+    color: #000000;
 }
 
-li:hover {
-    background-color: black;
+a:hover {
+    font-style: italic;
 }
 
 main img {
@@ -132,18 +108,22 @@ footer a {
 
 .contacts .left-side {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin-top: 50px;
+}
+.contacts .left-side a {
+    margin-right: 40px;
 }
 
 .contacts .right-side {
   display: flex;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 40px;
  }
 
 .contacts p {
   text-align: center;
+  font-size: 35px;
 }
 
 footer .copy {
@@ -151,6 +131,9 @@ footer .copy {
     margin-top: 50px;
     font-weight: bold;
 }
+
+
+
 
 
       
