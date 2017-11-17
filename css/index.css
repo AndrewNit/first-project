@@ -20,13 +20,15 @@ main {
 
 h1 {
     font-size: 2.2rem;
+    font-weight: bold;
+    margin-top: 20px;
     margin-right: 50px;
     margin-left: 50px;
 }
 
 .tourism li {
     display: inline-block;
-    margin-top: 12px;
+    margin-top: 25px;
     border: 1.5px solid black;
     border-radius: 5px;
     padding: 5px;
@@ -131,18 +133,23 @@ footer a {
 .contacts .left-side {
   display: flex;
   justify-content: space-around;
+  margin-top: 50px;
 }
 
 .contacts .right-side {
   display: flex;
   justify-content: space-around;
-}
+  margin-top: 50px;
+ }
 
 .contacts p {
   text-align: center;
 }
-#msg {
-    font-family: 'Gentium Book Basic', serif
+
+footer .copy {
+    text-align: right;
+    margin-top: 50px;
+    font-weight: bold;
 }
 
 
