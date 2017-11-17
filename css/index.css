@@ -13,6 +13,10 @@ main {
     margin-top: 80px;
 }
 
+header {
+    background-size: cover;
+}
+
 .top {
   margin-bottom: 40px;
   font-size: 27px;
@@ -130,6 +134,17 @@ footer .copy {
     text-align: right;
     margin-top: 50px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        flex-basis: 100%;
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
 }
 
 
